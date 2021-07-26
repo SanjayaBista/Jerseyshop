@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-23 17:57+0545\n"
+"PO-Revision-Date: 2021-07-23 17:59+0541\n"
+"Last-Translator: b'  <jersey111@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.6\n"
+
+#: MyJersey/settings.py:118
+msgid "English"
+msgstr "अंग्रेजी"
+
+#: MyJersey/settings.py:119
+msgid "Nepali"
+msgstr "नेपाली"
+
+#: MyJersey/urls.py:24
+msgid "admin/"
+msgstr "प्रशासक"
+
+#: MyJersey/urls.py:25
+msgid "cart/"
+msgstr "कार्ट"
+
+#: MyJersey/urls.py:26
+msgid "orders/"
+msgstr "अर्डर"
+
+#: MyJersey/urls.py:27
+msgid "payment/"
+msgstr "भुक्तानी"
+
+#: MyJersey/urls.py:28
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "कुपन"
+
+#: cart/forms.py:7
+msgid "Quantity"
+msgstr "मात्रा"
+
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "कुपन"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr "प्रक्रिया"
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr "सकियो"
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr "रद्द गरियो"
+
+#: store/templates/base.html:7 store/templates/base.html:13
+msgid "My Jersey Store"
+msgstr "मेरो जर्सी स्टोर"
+
+#: store/templates/base.html:19
+msgid "Your cart"
+msgstr "तपाईंको कार्ट"
+
+#: store/templates/base.html:21
+#, python-format
+msgid ""
+"\n"
+"                        %(items)s item, $%(total)s\n"
+"                      "
+msgid_plural ""
+"\n"
+"                        %(items)s items, $%(total)s\n"
+"                      "
+msgstr[0] ""
+"\n"
+"%(items)s वस्तु\n"
+", $%(total)s"
+msgstr[1] ""
+"\n"
+"%(items)s वस्तु\n"
+", $%(total)s"
+
+#: store/templates/store/prod_details.html:37
+msgid "Add to cart"
+msgstr ""
