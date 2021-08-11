@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'orders',
     'payment',
     'coupons',
-    'rosetta',
+
 ]
 
 MIDDLEWARE = [
@@ -113,11 +113,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en'
 
-from django.utils.translation import gettext_lazy as _
-LANGUAGES = (
-    ('en', _('English')),
-    ('ne',_('Nepali'))
-)
 
 TIME_ZONE = 'Asia/Katmandu'
 
@@ -163,8 +158,4 @@ BRAINTREE_CONF = braintree.Configuration(
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 REDIS_DB = 1
-
-LOCALE_PATHS = (
-    os.path.join(BASE_DIR,'locale/'),
-)
 
